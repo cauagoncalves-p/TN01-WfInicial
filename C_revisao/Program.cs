@@ -21,7 +21,7 @@ namespace C_revisao
                 resutado = "Aprovado";
             }
             else if (soma < 5)
-            {
+            { 
                 resutado = "Reprovado";
             }
             else {
