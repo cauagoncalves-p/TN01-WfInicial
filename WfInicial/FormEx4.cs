@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WfInicial
 {
-    public partial class FormEx3 : Form
+    public partial class FormEx4 : Form
     {
-        public FormEx3()
+        public FormEx4()
         {
             InitializeComponent();
         }
@@ -21,18 +21,21 @@ namespace WfInicial
         {
             int num1 = int.Parse(txtNumero1.Text);
             int num2 = int.Parse(txtNumero2.Text);
+            int num3 = int.Parse(txtNumero3.Text);
 
-            if (num1 == num2) {
-                MessageBox.Show("Os numeros são iguais", "EPA", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            if (num1 == num2 && num1 == num3)
+            {
+                MessageBox.Show("Os números são iguais", "EPA", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
-            else {
+            else
+            {
                 int maior = Math.Max(num1, num2);
+                maior = Math.Max(maior, num3);
 
                 string resposta = $" O numero maior é: {maior}";
 
                 MessageBox.Show(resposta, "OK", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-            
         }
     }
 }
