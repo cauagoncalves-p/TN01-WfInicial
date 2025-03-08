@@ -59,9 +59,33 @@ namespace WfInicial
             form.ShowDialog();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnEx8_Click(object sender, EventArgs e)
         {
             FormEx8 form = new FormEx8();
+            form.ShowDialog();
+        }
+
+        private void btnEx9_Click(object sender, EventArgs e)
+        {
+            FormEx9 form = new FormEx9();
+            form.ShowDialog();
+        }
+
+        private void btnEx10_Click(object sender, EventArgs e)
+        {
+            FormEx10 form = new FormEx10();
+            form.ShowDialog();
+        }
+
+        private void btnEx11_Click(object sender, EventArgs e)
+        {
+            FormEx11 form = new FormEx11();
+            form.ShowDialog();
+        }
+
+        private void btnEx12_Click(object sender, EventArgs e)
+        {
+            FormEx12 form = new FormEx12();
             form.ShowDialog();
         }
     }

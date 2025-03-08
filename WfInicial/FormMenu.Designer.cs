@@ -36,6 +36,10 @@
             btnEx6 = new Button();
             btnEx7 = new Button();
             btnEx8 = new Button();
+            btnEx9 = new Button();
+            btnEx12 = new Button();
+            btnEx11 = new Button();
+            btnEx10 = new Button();
             SuspendLayout();
             // 
             // btnEx1
@@ -116,13 +120,57 @@
             btnEx8.TabIndex = 7;
             btnEx8.Text = "Exercicio 8";
             btnEx8.UseVisualStyleBackColor = true;
-            btnEx8.Click += button1_Click;
+            btnEx8.Click += btnEx8_Click;
+            // 
+            // btnEx9
+            // 
+            btnEx9.Location = new Point(166, 158);
+            btnEx9.Name = "btnEx9";
+            btnEx9.Size = new Size(75, 23);
+            btnEx9.TabIndex = 8;
+            btnEx9.Text = "Exercicio 9";
+            btnEx9.UseVisualStyleBackColor = true;
+            btnEx9.Click += btnEx9_Click;
+            // 
+            // btnEx12
+            // 
+            btnEx12.Location = new Point(493, 158);
+            btnEx12.Name = "btnEx12";
+            btnEx12.Size = new Size(87, 23);
+            btnEx12.TabIndex = 9;
+            btnEx12.Text = "Exercicio 12";
+            btnEx12.UseVisualStyleBackColor = true;
+            btnEx12.Click += btnEx12_Click;
+            // 
+            // btnEx11
+            // 
+            btnEx11.Location = new Point(379, 158);
+            btnEx11.Name = "btnEx11";
+            btnEx11.Size = new Size(88, 23);
+            btnEx11.TabIndex = 10;
+            btnEx11.Text = "Exercicio 11";
+            btnEx11.UseVisualStyleBackColor = true;
+            btnEx11.Click += btnEx11_Click;
+            // 
+            // btnEx10
+            // 
+            btnEx10.Location = new Point(267, 158);
+            btnEx10.Name = "btnEx10";
+            btnEx10.Size = new Size(96, 23);
+            btnEx10.TabIndex = 11;
+            btnEx10.Text = "Exercicio 10";
+            btnEx10.UseVisualStyleBackColor = true;
+            btnEx10.Click += btnEx10_Click;
             // 
             // FormMenu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnEx10);
+            Controls.Add(btnEx11);
+            Controls.Add(btnEx12);
+            Controls.Add(btnEx9);
             Controls.Add(btnEx8);
             Controls.Add(btnEx7);
             Controls.Add(btnEx6);
@@ -146,5 +194,9 @@
         private Button btnEx6;
         private Button btnEx7;
         private Button btnEx8;
+        private Button btnEx9;
+        private Button btnEx12;
+        private Button btnEx11;
+        private Button btnEx10;
     }
 }
